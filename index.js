@@ -5,7 +5,8 @@ const PORT = 8000;
 
 
 
-
+// use express routes
+app.use('/',require('./routes/index'));
 
 
 // Start the server
